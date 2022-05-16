@@ -7,7 +7,7 @@
 //
 import UIKit
 public class Methods{
-    public func lowPolyfy(sourceImage: UIImage, ratio: Int) -> UIImage{
+    public static func lowPolyfy(sourceImage: UIImage, ratio: Int) -> UIImage{
         
         let image = sourceImage
         
